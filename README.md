@@ -24,7 +24,7 @@ Consistency across multiple threads
 Singleton Example
 
 Following is the example of Singleton class in java:
-
+```
 public class Singleton {
 
 private static Singleton instance = null;
@@ -45,7 +45,8 @@ public static Singleton getInstance() {
 }
 
 }
-
+```
 Following is the example of Singleton class in Kotlin:
-
+```
 Object Singleton { init { println("Hello Singleton") }}
+```
